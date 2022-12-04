@@ -1,0 +1,19 @@
+{
+  "name": "bvnsapuppeteer",
+  "version": "1.0.0",
+  "description": "Prueba descarga de reportes bvnsa con puppeteer ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "ingridrpm",
+  "license": "ISC",
+  "dependencies": {
+    "node-table-to-csv": "^0.1.0",
+    "puppeteer": "^19.3.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.0",
+    "request-promise-native": "^1.0.9",
+    "urllib": "^3.5.2"
+  }
+}
